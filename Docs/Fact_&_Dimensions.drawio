@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="loYE3USBwpbvTESn1dJs">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="giIJxMoxXopqawmLVNrp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="Fact_Sales" vertex="1">
+          <mxGeometry height="90" width="200" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-20" edge="1" parent="1" source="giIJxMoxXopqawmLVNrp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="giIJxMoxXopqawmLVNrp-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Dim_Dates" vertex="1">
+          <mxGeometry height="80" width="160" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-21" edge="1" parent="1" source="giIJxMoxXopqawmLVNrp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="giIJxMoxXopqawmLVNrp-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Dim_Stores" vertex="1">
+          <mxGeometry height="80" width="160" x="340" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-19" edge="1" parent="1" source="giIJxMoxXopqawmLVNrp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="giIJxMoxXopqawmLVNrp-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Dim_Products" vertex="1">
+          <mxGeometry height="80" width="160" x="630" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-18" edge="1" parent="1" source="giIJxMoxXopqawmLVNrp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="giIJxMoxXopqawmLVNrp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Dim_Customers" vertex="1">
+          <mxGeometry height="80" width="160" x="50" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="Fact_Exchange_Rates" vertex="1">
+          <mxGeometry height="70" width="200" x="325" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-24" edge="1" parent="1" source="giIJxMoxXopqawmLVNrp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="giIJxMoxXopqawmLVNrp-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giIJxMoxXopqawmLVNrp-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;( Date&amp;nbsp; + Currency )&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="345" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
