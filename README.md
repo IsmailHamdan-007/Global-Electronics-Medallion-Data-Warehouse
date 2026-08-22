@@ -1109,6 +1109,10 @@ It serves as a practical demonstration of SQL-based Data Engineering and provide
 
 Data Engineering | SQL Server | T-SQL | Python | PySpark | Databricks
 
+LinkedIn: https://www.linkedin.com/in/ismailnhamdan?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+GitHub: https://github.com/IsmailHamdan-007/
+
 ---
 
 ## ⭐ If you find this project useful
