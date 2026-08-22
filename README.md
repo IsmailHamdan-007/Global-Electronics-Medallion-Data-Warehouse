@@ -20,7 +20,7 @@ This project implements a complete Data Engineering lifecycle: raw data ingestio
 
 ## 🏗️ Architecture & Data Flow
 
-text
+
                CSV Source Files
   (Customers, Products, Stores, Sales, Exchange Rates)
                        │
@@ -46,7 +46,9 @@ text
                        │
                        ▼
             Downstream BI / Power BI
+
 ---
+
 
 ## 🥉 Layer Breakdown
 
