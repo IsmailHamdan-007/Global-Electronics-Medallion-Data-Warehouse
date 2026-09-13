@@ -60,12 +60,29 @@ Purpose:
 
 * Identify leading/trailing white space issues across text columns.
 =========================================================*/
-SELECT Name FROM Bronze.Customers WHERE Name <> TRIM(Name) OR Name IS NULL;
-SELECT City FROM Bronze.Customers WHERE City <> TRIM(City) OR City IS NULL;
-SELECT State_Code FROM Bronze.Customers WHERE State_Code <> TRIM(State_Code) OR State_Code IS NULL;
-SELECT Zip_Code FROM Bronze.Customers WHERE Zip_Code <> TRIM(Zip_Code) OR Zip_Code IS NULL;
-SELECT Country FROM Bronze.Customers WHERE Country <> TRIM(Country) OR Country IS NULL;
-SELECT Continent FROM Bronze.Customers WHERE Continent <> TRIM(Continent) OR Continent IS NULL;
+SELECT Name 
+FROM Bronze.Customers 
+WHERE Name <> TRIM(Name) OR Name IS NULL;
+
+SELECT City 
+FROM Bronze.Customers
+WHERE City <> TRIM(City) OR City IS NULL;
+
+SELECT State_Code 
+FROM Bronze.Customers 
+WHERE State_Code <> TRIM(State_Code) OR State_Code IS NULL;
+
+SELECT Zip_Code 
+FROM Bronze.Customers 
+WHERE Zip_Code <> TRIM(Zip_Code) OR Zip_Code IS NULL;
+
+SELECT Country 
+FROM Bronze.Customers
+WHERE Country <> TRIM(Country) OR Country IS NULL;
+
+SELECT Continent 
+FROM Bronze.Customers 
+WHERE Continent <> TRIM(Continent) OR Continent IS NULL;
 
 /*=========================================================
 STEP 5: Check Categorical Column Values
@@ -74,6 +91,7 @@ Purpose:
 * Verify current distinct values in Gender and State_Code.
 =========================================================*/
 SELECT DISTINCT Gender FROM Bronze.Customers;
+
 SELECT DISTINCT State_Code FROM Bronze.Customers;
 
 /*=========================================================
@@ -127,8 +145,8 @@ Purpose:
 * Inspect MIN/MAX birth years to ensure valid dates.
 =========================================================*/
 SELECT
-MIN(YEAR(Birthday)) AS Min_Birth_Year,
-MAX(YEAR(Birthday)) AS Max_Birth_Year
+  MIN(YEAR(Birthday)) AS Min_Birth_Year,
+  MAX(YEAR(Birthday)) AS Max_Birth_Year
 FROM Bronze.Customers;
 
 /*=========================================================
@@ -248,8 +266,13 @@ Purpose:
 
 * Confirm trailing and leading spaces were completely removed.
 =========================================================*/
-SELECT Name FROM Silver.Customers WHERE Name <> TRIM(Name);
-SELECT City FROM Silver.Customers WHERE City <> TRIM(City);
+SELECT Name 
+FROM Silver.Customers 
+WHERE Name <> TRIM(Name);
+
+SELECT City 
+FROM Silver.Customers 
+WHERE City <> TRIM(City);
 
 /*=========================================================
 STEP 14: Validate Categorical Standardization in Silver
@@ -258,4 +281,5 @@ Purpose:
 * Confirm expected unique values for standardized fields.
 =========================================================*/
 SELECT DISTINCT Gender FROM Silver.Customers;
+
 SELECT DISTINCT State_Code FROM Silver.Customers;
